@@ -3,7 +3,7 @@ def read_friends(users: list)->None:
     for user in users:
         print(f'\tTwoj znajomy {user["name"]} {user["surname"]} opublikował(a) {user["posts"]} postów')
 
-def add_user(liasta: list) -> None:
+def add_user(lista: list) -> None:
     imie = input("Podaj imie: ")
     nazwisko = input("Podaj nazwisko: ")
     liczba_postow = int(input("Podaj liczbe postow uzytkownika: "))
